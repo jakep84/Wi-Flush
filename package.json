@@ -1,7 +1,8 @@
 { 
-	"name": "shideetos",
-	"version": "0.0.1",
-	"dependancies": {
-		"johnny-five": "latest"
-	}
+  "name": "shideetos",
+  "version": "0.0.1",
+  "dependencies": {
+    "johnny-five": "0.6.x",
+    "temporal": "~0.2.6"
+  }
 }
