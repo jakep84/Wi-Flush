@@ -1,6 +1,6 @@
 var five = require('johnny-five'),
 	board = new five.Board(),
-	led
+	led;
 
 	board.on("ready", function () {
 	console.log('Board is ready');

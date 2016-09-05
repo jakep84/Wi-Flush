@@ -14,6 +14,7 @@ board.on("ready", function() {
 		delay: 5000,
 			task:function() {
 				console.log("spinnning clockwise");
+				//spins ccw though
 				wheel.cw();
 			}
 		},  {
@@ -26,6 +27,7 @@ board.on("ready", function() {
 		delay: 3000,
 			task: function() {
 				console.log("spinning counter-clockwise");
+				//spins cw though
 				wheel.ccw();
 			}
 		} , {
