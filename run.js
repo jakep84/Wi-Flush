@@ -12,6 +12,15 @@ board.on("ready", function() {
  
  var wheel = new.Servo.Continuous(9);
 	
-//Config 
+//Configure stdin for the keyboard controller 
+	process.stdin.resume();
+	process.stdin.setEncoding('utf8');
+	process.stdin.setRawMode(true);
+	
+	process.stdin.on("keypress", function(ch, key) {
+		
+	});
+	
+	
 	
 };
