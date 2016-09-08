@@ -3,7 +3,7 @@ var board = new five.Board();
 
 board.on("ready", function() {
 
-	var servo = new five.Servo();
+	var servo = new five.Servo(10);
 	var animation = new.five.Animation(servo);
 	console.log("servo & animation set"); 
 
