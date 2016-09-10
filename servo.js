@@ -24,8 +24,7 @@ board.on("ready", function() {
 //		console.log("servo centered");
 				servo.sweep();
 				console.log("sweeping");
-	servo.stop();
-				console.log("stopped");
+
 
 
 	});
