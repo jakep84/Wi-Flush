@@ -11,3 +11,5 @@
 ////device not running properly (red led) (or IR if adding camera to view device may be a better alternative.
 
 //client-side app controller
+
+//set it to flush at the sound of scratching???
